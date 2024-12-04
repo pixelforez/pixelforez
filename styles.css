@@ -29,7 +29,7 @@ header {
 }
 
 .logo-container {
-    display: flex;
+    display: fixed;
     align-items: center;
 }
 
@@ -39,7 +39,7 @@ header {
 
 nav .menu {
     list-style: none;
-    display: flex;
+    display: fixed;
     gap: 0px;
 }
 
@@ -61,7 +61,7 @@ nav .menu li a:hover {
 #contenu-principal {
     width: 100%;
     margin: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     background-color: white;
     border-radius: 5px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
