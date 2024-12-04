@@ -26,7 +26,8 @@ body {
     padding: 0px;
    text-align: center; /* Centre tout le texte à l'intérieur de ce bloc */ 
     font-family: Arial, sans-serif; 
-
+background-color: #f8f9fa;
+    color: #333;
 }
 
 
