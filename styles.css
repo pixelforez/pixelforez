@@ -41,9 +41,8 @@ header {
 }
 
 nav .menu {
-    flex-direction: row;
     list-style: none;
-    display: fixed;
+    display: flex;
     gap: 20px;
 }
 
