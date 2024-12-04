@@ -30,7 +30,7 @@ header {
 }
 
 .logo-container {
-    display: flex;
+    display: fixed;
     align-items: center;
 }
 
