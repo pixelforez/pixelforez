@@ -1,0 +1,52 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Section principale dynamique -->
+    <div id="contenu-principal">
+        <section style="text-align: center; padding: 40px; font-family: Arial, sans-serif; background-color: #f4f7fa; color: #333;">
+            <h1 style="font-size: 2.5rem; color: #4CAF50;">📞 Contactez-nous</h1>
+            <p style="font-size: 1.2rem; margin-top: 10px;">
+                Une question, une idée, ou un projet à concrétiser ? Nous sommes là pour vous répondre rapidement.
+            </p>
+
+            <!-- Formulaire de contact -->
+            <form style="max-width: 500px; margin: 30px auto; text-align: left;" action="mailto:studiopeinturefigurine@gmail.com" method="post" enctype="text/plain">
+                <label for="name" style="display: block; margin-bottom: 10px; font-weight: bold; color: #1a6e2f;">Nom :</label>
+                <input type="text" id="name" name="name" placeholder="Votre nom complet" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; margin-bottom: 20px;">
+
+                <label for="email" style="display: block; margin-bottom: 10px; font-weight: bold; color: #1a6e2f;">Email :</label>
+                <input type="email" id="email" name="email" placeholder="Votre adresse email" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; margin-bottom: 20px;">
+
+                <label for="message" style="display: block; margin-bottom: 10px; font-weight: bold; color: #1a6e2f;">Message :</label>
+                <textarea id="message" name="message" rows="6" placeholder="Votre message..." required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;"></textarea>
+
+                <!-- Centrer le bouton -->
+                <div style="text-align: center; margin-top: 20px;">
+                    <button type="submit" style="padding: 10px 20px; background-color: #1a6e2f; color: white; border: none; border-radius: 5px; font-size: 1rem; cursor: pointer;">
+                        Envoyer votre message ✉️
+                    </button>
+                </div>
+            </form>
+
+            <!-- Autres moyens de contact -->
+            <div style="margin-top: 40px;">
+                <h2 style="font-size: 1.8rem; color: #4CAF50;">📍 Autres moyens de contact :</h2>
+                <p style="font-size: 1.1rem; margin-top: 10px;">
+                    Studio Peinture Figurine<br>
+                    6 Rue Benjamin Franklin<br>
+                    42110 Feurs, France
+                </p>
+                <p style="font-size: 1.1rem; margin-top: 10px;">
+                    Téléphone : <a href="tel:+33658708056" style="color: #1a6e2f; text-decoration: none;">06 58 70 80 56</a><br>
+                    Email : <a href="mailto:studiopeinturefigurine@gmail.com" style="color: #1a6e2f; text-decoration: none;">studiopeinturefigurine@gmail.com</a>
+                </p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
