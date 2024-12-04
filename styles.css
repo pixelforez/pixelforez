@@ -13,7 +13,7 @@ body {
     padding-top: auto; /* Compense l'en-tête fixe */
     line-height: 1.6;
     margin: 0;
-    padding: 30px;
+    padding: auto;
 }
 
 /* En-tête */
