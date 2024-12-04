@@ -17,14 +17,14 @@ body {
 header {
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 80%;
     background: linear-gradient(to right, #4CAF50, #2E8B57);
     color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
-    z-index: 1000;
+    z-index: 500;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
