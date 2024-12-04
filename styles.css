@@ -12,7 +12,7 @@ body {
     color: #333;
     padding-top: auto; /* Compense l'en-tête fixe */
     line-height: 1.6;
-    margin: 20px;
+    margin: 0px;
     padding: 0px;
 }
 
@@ -26,8 +26,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 20px;
-    padding: 30px;
+    padding: 20px;
     z-index: 1000;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
