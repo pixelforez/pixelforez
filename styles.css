@@ -38,13 +38,11 @@ header {
 
 .logo {
     height: 50px;
-     box-shadow: 0 4px 5px rgba(255, 255, 255, 0.8); /* Ombre blanche */
-  border-radius: 4px; /* Optionnel : coins arrondis */
 }
 
 nav .menu {
     list-style: none;
-    display: flex;
+    display: fixed;
     gap: 20px;
 }
 
@@ -98,8 +96,6 @@ footer {
 
     .logo {
         height: 40px;
-         box-shadow: 0 4px 5px rgba(255, 255, 255, 0.8); /* Ombre blanche */
-  border-radius: 4px; /* Optionnel : coins arrondis */
     }
 }
 /* Conteneur principal */
