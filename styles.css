@@ -10,7 +10,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     background-color: #f8f8f8;
     color: #333;
-    padding-top: 80px; /* Compense l'en-tête fixe */
+    padding-top: auto; /* Compense l'en-tête fixe */
     line-height: 1.6;
 }
 
