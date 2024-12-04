@@ -16,6 +16,60 @@ body {
     padding: 0px;
 }
 
+/* Conteneur principal */
+#contenu-principal {
+    width: 100%;
+    margin: 0px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 0px;
+   text-align: center; /* Centre tout le texte à l'intérieur de ce bloc */
+}
+
+
+/* Titre principal de la page */
+#contenu-principal h2 {
+    color: #2f8b4f;
+    font-size: 18px;
+  text-align: center; /* Centre tout le texte à l'intérieur de ce bloc */
+}
+/* Style du bouton fleche */
+#scrollToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #2f8b4f;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none; /* Masqué au départ */
+    z-index: 1000;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+h1, h2 {
+    color: #4CAF50; /* Vert principal */
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+h2 {font-size: 1.5rem; color: #1a6e2f;}
+p 
+{font-size: 1rem; margin-top: 10pxl;}
+
+
+
 /* En-tête */
 header {
     position: fixed;
@@ -98,57 +152,3 @@ footer {
         height: 40px;
     }
 }
-/* Conteneur principal */
-#contenu-principal {
-    width: 100%;
-    margin: 0px;
-    background-color: white;
-    border-radius: 5px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-   text-align: center; /* Centre tout le texte à l'intérieur de ce bloc */
-      padding: 0px;
-     border: 0px;
-    }
-}
-
-/* Titre principal de la page */
-#contenu-principal h2 {
-    color: #2f8b4f;
-    font-size: 18px;
-  text-align: center; /* Centre tout le texte à l'intérieur de ce bloc */
-}
-/* Style du bouton fleche */
-#scrollToTopBtn {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #2f8b4f;
-    color: white;
-    border: none;
-    padding: 15px;
-    font-size: 24px;
-    border-radius: 50%;
-    cursor: pointer;
-    display: none; /* Masqué au départ */
-    z-index: 1000;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
-}
-
-
-h1, h2 {
-    color: #4CAF50; /* Vert principal */
-}
-
-a {
-    color: #4CAF50;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-h2 {font-size: 1.5rem; color: #1a6e2f;}
-p 
-{font-size: 1rem; margin-top: 10pxl;}
-
-
