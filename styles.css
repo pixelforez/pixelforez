@@ -38,6 +38,8 @@ header {
 
 .logo {
     height: 50px;
+     box-shadow: 0 4px 5px rgba(255, 255, 255, 0.8); /* Ombre blanche */
+  border-radius: 4px; /* Optionnel : coins arrondis */
 }
 
 nav .menu {
@@ -96,6 +98,8 @@ footer {
 
     .logo {
         height: 40px;
+         box-shadow: 0 4px 5px rgba(255, 255, 255, 0.8); /* Ombre blanche */
+  border-radius: 4px; /* Optionnel : coins arrondis */
     }
 }
 /* Conteneur principal */
