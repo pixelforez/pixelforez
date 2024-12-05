@@ -69,10 +69,7 @@
                 });
             });
         }
-     $(document).ready(function() {
-            // Charger la page d'accueil par défaut
-            loadPage("index.html");
-        });
+
     </script>
     <!-- Section principale dynamique -->
     <div id="contenu-principal">
@@ -106,7 +103,7 @@
 
     // Afficher le bouton quand l'utilisateur a défilé de 20px vers le bas
     window.onscroll = function() {
-        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
             mybutton.style.display = "block";
            mymenu.style.display = "none";
             $('#formSection').toggle();
