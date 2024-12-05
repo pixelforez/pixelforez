@@ -47,7 +47,7 @@
           <div class="logo-container">
         <nav>
             <button onclick="$('#formSection').toggle();" class="buttonclair menubuttonmobileonly">Menu</button>
-  <nav id="formSection" class="menumobileonly">
+  <nav id="formSection" class="menubuttonmobileonly">
             <ul class="menu">
                 <li><a href="index.html" onclick="loadPage('index.html'); return false;">Accueil</a></li>
                 <li><a href="services.html" onclick="loadPage('services.html'); return false;">Services</a></li>
@@ -69,7 +69,10 @@
                 });
             });
         }
-
+     $(document).ready(function() {
+            // Charger la page d'accueil par défaut
+            loadPage("index.html");
+        });
     </script>
     <!-- Section principale dynamique -->
     <div id="contenu-principal">
