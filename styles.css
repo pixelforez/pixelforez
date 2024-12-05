@@ -212,6 +212,9 @@ footer {
     bottom: 0;
     width: 100%;
 }
+  .menumobileonly {
+    display: block; /* Afficher le bouton uniquement pour les écrans de moins de 768px */
+  }
 .menubuttonmobileonly {
   display: none; /* Par défaut, le bouton est masqué */
 }
