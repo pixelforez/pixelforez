@@ -34,12 +34,12 @@ display: inline-block;
 }
 
 .buttonfonce:hover {
-    background-color: #f0f0f0; /* Jaune or au survol */
-    color: #333;
+    background-color: white;
+    color: #4CAF50;
 }
 .buttonclair:hover {
-    background-color: #f0f0f0; /* Jaune or au survol */
-    color: #333;
+    background-color: white;
+    color: #4CAF50;
 }
 body {
     font-family: 'Montserrat', sans-serif;
