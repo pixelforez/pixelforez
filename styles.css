@@ -184,6 +184,9 @@ footer {
     bottom: 0;
     width: 100%;
 }
+.mobile-only {
+  display: none; /* Par défaut, le bouton est masqué */
+}
 
 /* Responsive */
 @media (max-width: 768px) {
@@ -191,7 +194,9 @@ footer {
         flex-direction: column;
         gap: 10px;
     }
-
+  .mobile-only {
+    display: block; /* Afficher le bouton uniquement pour les écrans de moins de 768px */
+  }
     .logo {
         height: 40px;
     }
