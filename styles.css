@@ -18,7 +18,7 @@ header {
     position: fixed;
     top: 0;
     width: 80%;
-    background: linear-gradient(to right, #4CAF50, #2E8B57);
+    background: linear-gradient(to right, #ccccc, #4CAF50, #2E8B57);
     color: white;
     display: flex;
     align-items: center;
