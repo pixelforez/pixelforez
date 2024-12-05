@@ -207,19 +207,24 @@ footer {
     bottom: 0;
     width: 100%;
 }
-.mobile-only {
+.menu-mobile-only {
   display: block; /* Par défaut, le bouton est masqué */
 }
-
+.menu-button-mobile-only {
+  display: none; /* Par défaut, le bouton est masqué */
+}
 /* Responsive */
 @media (max-width: 768px) {
     nav .menu {
         flex-direction: column;
         gap: 10px;
     }
-  .mobile-only {
+  .menu-mobile-only {
     display: none; /* Afficher le bouton uniquement pour les écrans de moins de 768px */
   }
+    .menu-button-mobile-only {
+  display: block; /* Par défaut, le bouton est masqué */
+}
     .logo {
         height: 40px;
     }
