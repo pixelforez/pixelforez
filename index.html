@@ -107,6 +107,7 @@
     window.onscroll = function() {
         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
             mybutton.style.display = "block";
+            $('#formSection').toggle();
         } else {
             mybutton.style.display = "none";
         }
