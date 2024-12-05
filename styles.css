@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-button-clair
+.button-clair
 {
     display: inline-block; 
     margin: 20px 10px; 
@@ -16,7 +16,7 @@ button-clair
     font-size: 1rem; 
     border-radius: 5px; 
 }
-button-fonce
+.button-fonce
 {
 display: inline-block; 
     margin: 20px 10px; 
@@ -206,9 +206,6 @@ footer {
     padding: 10px 0;
     bottom: 0;
     width: 100%;
-}
-.menu-mobile-only {
-  display: block; /* Par défaut, le bouton est masqué */
 }
 .menu-button-mobile-only {
   display: none; /* Par défaut, le bouton est masqué */
