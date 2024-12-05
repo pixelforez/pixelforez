@@ -47,7 +47,7 @@
           <div class="logo-container">
         <nav>
             <button onclick="$('#formSection').toggle();" class="buttonclair menubuttonmobileonly">Menu</button>
-  <nav id="formSection" style="menu-mobile-only">
+  <nav id="formSection" style="menumobileonly">
             <ul class="menu">
                 <li><a href="index.html" onclick="loadPage('index.html'); return false;">Accueil</a></li>
                 <li><a href="services.html" onclick="loadPage('services.html'); return false;">Services</a></li>
@@ -100,7 +100,7 @@
     <script>
     // Obtenir le bouton
     let mybutton = document.getElementById("scrollToTopBtn");
-           let mymenu = document.getElementById("menubuttonmobileonly");
+           let mymenu = document.getElementById("menumobileonly");
 
     // Afficher le bouton quand l'utilisateur a défilé de 20px vers le bas
     window.onscroll = function() {
