@@ -13,8 +13,10 @@
     background-color: #4CAF50; 
     color: white; 
     text-decoration: none; 
+     text-align: center;
     font-size: 1rem; 
     border-radius: 5px; 
+     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Ombre 3D */
 }
 .button-fonce
 {
@@ -25,8 +27,19 @@ display: inline-block;
     background-color: #1a6e2f; 
     color: white; 
     text-decoration: none;
+     text-align: center;
     font-size: 1rem; 
     border-radius: 5px; 
+     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Ombre 3D */
+}
+
+.button-fonce:hover {
+    background-color: #ccccc; /* Jaune or au survol */
+    color: #333;
+}
+.button-clair:hover {
+    background-color: #ccccc; /* Jaune or au survol */
+    color: #333;
 }
 body {
     font-family: 'Montserrat', sans-serif;
