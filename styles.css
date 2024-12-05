@@ -208,7 +208,7 @@ footer {
     width: 100%;
 }
 .mobile-only {
-  display: none; /* Par défaut, le bouton est masqué */
+  display: block; /* Par défaut, le bouton est masqué */
 }
 
 /* Responsive */
