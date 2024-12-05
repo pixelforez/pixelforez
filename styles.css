@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-.button-clair
+button-clair
 {
     display: inline-block; 
     margin: 20px 10px; 
@@ -16,7 +16,7 @@
     font-size: 1rem; 
     border-radius: 5px; 
 }
-.button-fonce
+button-fonce
 {
 display: inline-block; 
     margin: 20px 10px; 
